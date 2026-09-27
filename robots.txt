@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://deoliveiraleandro939-ship-it.github.io/ldapk-studio/sitemap.xml
