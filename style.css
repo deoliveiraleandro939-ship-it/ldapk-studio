@@ -1267,6 +1267,68 @@ footer > p {
 }
 
 
+
+
+/* =========================================
+   REDES SOCIAIS - LDAPK STUDIO
+   ========================================= */
+
+.footer-social {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin: 24px auto 8px;
+}
+
+.social-link {
+    min-width: 135px;
+    min-height: 46px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 9px;
+    padding: 0 17px;
+    border: 1px solid #282b34;
+    border-radius: 9px;
+    background: #101115;
+    color: #dfe1e7;
+    font-size: 11px;
+    font-weight: 800;
+    letter-spacing: 0.4px;
+    transition:
+        transform 0.25s,
+        border-color 0.25s,
+        background 0.25s,
+        box-shadow 0.25s;
+}
+
+.social-link span {
+    font-size: 18px;
+    line-height: 1;
+}
+
+.social-link:hover {
+    transform: translateY(-3px);
+    background: #15161c;
+    border-color: #4a465f;
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.22);
+}
+
+.social-link.instagram:hover {
+    border-color: #8a83ff;
+}
+
+.social-link.tiktok:hover {
+    border-color: #d7d9df;
+}
+
+.social-link.youtube:hover {
+    border-color: #ff4b55;
+}
+
+
 /* =========================================
    MODAL DAS IMAGENS
    ========================================= */
@@ -1749,6 +1811,22 @@ footer > p {
             0 14px;
 
         font-size: 10px;
+    }
+
+
+
+    /* REDES SOCIAIS */
+
+    .footer-social {
+        flex-direction: column;
+        width: 100%;
+        max-width: 320px;
+        margin-top: 22px;
+    }
+
+    .social-link {
+        width: 100%;
+        min-height: 48px;
     }
 
 
