@@ -74,6 +74,29 @@ if (menuMobile && menu) {
 
 
 // ==========================================
+// WHATSAPP - CRIAR SITE
+// ==========================================
+
+const btnCriarSite =
+    document.getElementById("btnCriarSite");
+
+if (btnCriarSite) {
+
+    btnCriarSite.addEventListener("click", function () {
+
+        const mensagem =
+            "Olá! Vi o site da LDAPK Studio. " +
+            "Gostaria de criar um site profissional para minha empresa ou projeto " +
+            "e quero conversar sobre como ele pode ser desenvolvido.";
+
+        abrirWhatsapp(mensagem);
+
+    });
+
+}
+
+
+// ==========================================
 // WHATSAPP - CRIAR APLICATIVO
 // ==========================================
 
@@ -159,8 +182,8 @@ if (btnWhatsapp) {
 
             const mensagem =
                 "Olá! Vi o site da LDAPK Studio " +
-                "e gostaria de conversar sobre " +
-                "a criação ou modificação de um aplicativo.";
+                "e gostaria de conversar sobre a criação de um site, " +
+                "aplicativo Android ou outro projeto digital.";
 
             abrirWhatsapp(mensagem);
 
